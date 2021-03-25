@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+
+/* homepage section homepage section */
+
+.homepage-section{
+    height: 90vh;
+    background-image: linear-gradient(0deg, rgb(0, 0, 0), rgba(0, 0, 0, 0.45)),url(../img/pic02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header{
+
+}
+.header-wrapper{
+
+    display: flex;
+    padding-top: 2%;
+}
+.header-logo{
+
+    flex-basis: 20%;
+}
+.header-logo a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.header-logo a:hover{
+    color: red;
+    transition: .1s;
+}
+.header-logo h3:first-child{
+
+    font-family: faster one;
+}
+.header-logo h3:last-child{
+
+    font-family: staatliches;
+    color: red;
+    font-size: 35px;
+}
+
+.navbar{
+
+    flex-basis: 60%;
+    text-align: right;
+}
+.navbar ul{
+
+}
+.navbar li{
+
+    display: inline-block;
+    padding: 2%;
+}
+.navbar a{
+
+    color: white;
+    text-decoration: none;
+    font-family: franklin gothic;
+    font-size: 17px;
+    line-height: 40px;
+}
+.navbar a:hover{
+    color: red;
+    transition: .1s;
+}
+.navbar-button{
+
+    margin-top: 1.2%;
+}
+.navbar-button button{
+
+    background: none;
+    color: white;
+    font-family: franklin gothic;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 13px;
+    border-radius: 25px;
+    font-weight: 600;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.navbar-button button:hover{
+
+    background: #f00;
+    transition: .2s;
+    border: none;
+}
+
+
+.homepage-banner{
+
+}
+.homepage-banner-wrapper{
+
+    margin: 10% auto;
+    text-align: center;
+    position: relative;
+}
+.homepage-banner-wrapper p{
+
+    color: white;
+    font-family: galada;
+    font-size: 25px;
+}
+.homepage-banner-wrapper p:after{
+    content: "";
+    position: absolute;
+    background: red;
+    width: 80px;
+    height: 1px; 
+    top: 18%;
+    left: 46%;
+}
+.homepage-banner-wrapper h2{
+
+    font-family: franklin gothic;
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: 1%;
+}
+.homepage-banner-wrapper a{
+
+}
+.homepage-banner-wrapper button{
+
+    padding: 20px 40px;
+    font-family: franklin gothic;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+    background: red;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 5%;
+}
+.homepage-banner-wrapper button:hover{
+
+    background: #a61313;
+    transition: .2s;
+}
+
+/* quote section quote section */
+
+.quote-section{
+
+    background: url(../img/quotebackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+}
+.quote-section-wrapper{
+
+    text-align: center;
+}
+.quote-section-wrapper h2{
+
+    font-family: galada;
+    padding-top: 4%;
+    font-size: 20px;
+    font-weight: 1;
+    color: #4C82B5;
+}
+.quote-section-wrapper p{
+    
+    text-transform: uppercase;
+    font-family: franklin gothic;
+    color: #8C949C;
+    font-weight: 700;
+}
+/* upcoming-events upcoming-events */
+
+.upcoming-events{
+
+    margin: 7% auto;
+}
+.upcoming-events-wrapper{
+
+    height: 90vh;
+}
+.upcoming-events-heading{
+
+    text-align: center;
+    position: relative;
+}
+.upcoming-events-heading h1{
+
+    font-family: franklin gothic;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.upcoming-events-heading h1::after{
+    content: "";
+    position: absolute;
+    background: red;
+    width: 100px;
+    height: 1px;
+    
+    left: 46%;
+    top: 110%;
+}
+.upcoming-events-list{
+
+    margin-top: 10%;
+    text-align: center;
+}
+.upcoming-events-list-wrapper{
+
+    display: flex;
+}
+
+.event1{
+
+    width: 42%;
+    margin: auto;
+}
+.event1 img{
+
+    box-shadow: 20px 20px 2px 1px rgba(159, 159, 159, 0.45);
+}
+.event1 h1{
+
+    font-family: franklin gothic;
+    text-transform: uppercase;
+    font-size: 26px;
+    margin: 6% auto 3%;
+    font-weight: 1;
+    color: #3c081c;
+}
+.event1 p{
+
+    width: 95%;
+    margin: auto auto 20px auto;
+    font-family: arial;
+    color: #6181A5;
+}
+.event1 a{
+
+    text-decoration: none;
+    color: #FA3E62;
+    text-transform: uppercase;
+    font-family: hobo std;
+}
+.event1 a:hover{
+    color: #7581A5;
+    transition: .2s ease;
+}
+.event1 i{
+    
+}
+
+/* explore-the-world explore-the-world */
+
+.explore-the-world{
+
+    height: 70vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.45)),url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 10% auto;
+}
+.explore-the-world-wrapper{
+
+    width: 50%;
+    margin: 10% 0px 0px 50%;
+}
+.explore-the-world-heading {
+
+    width: 90%;
+    height: 80%;
+    margin: 17% auto;
+    display: inline-block;
+    position: relative;
+}
+.explore-the-world-heading h1{
+
+    font-family: franklin gothic;
+    color: white;
+    text-transform: uppercase;
+    font-size: 60px;
+    width: 70%;
+}
+.explore-the-world-heading h1::after{
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 5px;
+    background: red;
+    top: 55%;
+    left: 0%;
+    
+}
+.explore-the-world-heading p{
+
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    margin: 5% auto;
+}
+.explore-the-world-heading a{
+    
+    font-family: staatliches;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.explore-the-world-heading a:hover{
+    color: red;
+    transition: .2s;
+}
+.explore-the-world-heading i{
+    color: red;
+    margin-left: 15px;
+}
+
+/* .upcoming-tours .upcoming-tours */
+.upcoming-tours{
+
+    height: 90vh;
+    margin: 10% auto;
+}
+.upcoming-tours-wrapper{
+
+    display: flex;
+}
+.upcoming-tours-details{
+
+    flex-basis: 35%;
+}
+.upcoming-tours-details-wrapper{
+    position: relative;
+    padding: 5%;
+}
+.upcoming-tours-details-wrapper h1{
+
+    font-family: franklin gothic;
+    text-transform: uppercase;
+    color: #1B1618;
+    font-size: 35px;
+}
+.upcoming-tours-details-wrapper h1::after{
+    content: "";
+    position: absolute;
+    width: 15%;
+    height: 5px;
+    background: red;
+    top: 35%;
+    left: 5%;
+}
+.upcoming-tours-details-wrapper p{
+
+    font-family: arial;
+    margin: 10% auto;
+}
+.upcoming-tours-details-wrapper button{
+
+    background: none;
+    color: white;
+    font-family: franklin gothic;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 13px;
+    border-radius: 25px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background: #FB2056;
+}
+.upcoming-tours-details-wrapper button:hover{
+
+}
+.upcoming-tours-img{
+    flex-basis: 65%;
+    padding: 1.6%;
+}
+.upcoming-tours-img-wrapper{
+    position: relative;
+}
+.upcoming-tours-img img{
+
+    width: 50%;
+    float: left;
+    max-width: 100%;
+}
+.img1{
+
+}
+.img2{
+
+}
+.img3{
+
+    position: absolute;
+    left: 0%;
+    top: 200px;
+}
+.img4{
+    
+    position: absolute;
+    right: 0;
+    top: 357px;
+}
+/* footer footer */
+
+.footer-section{
+
+}
+.footer-section-wrapper{
+
+    height: 30vh;
+    background: #191919;
+    text-align: center;
+    color: #B49D77;
+    font-family: franklin gothic;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.footer-section-wrapper p:first-child{
+
+    padding-top: 5%;
+}
+.footer-section-wrapper p:last-child{
+    
+    padding-top: 2%;
+}
